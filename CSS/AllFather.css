@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Main;
+  src: url("Open_Sans/OpenSans-Bold.ttf") format("TrueType");
+  font-weight: normal; }
+@font-face {
+  font-family: Main;
+  src: url("Open_Sans/OpenSans-ExtraBold.ttf") format("TrueType");
+  font-weight: 900; }
+body {
+  background: #0F0F0F;
+  font-family: Main;
+  color: white;
+  margin: 0px;
+  padding: 0px; }
+
+nav {
+  width: 100%;
+  position: fixed;
+  display: flex; }
+  nav #NavLeft {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 10px; }
+    nav #NavLeft img {
+      height: 30px;
+      border: 3px solid #E51A4B;
+      padding: 6.5px; }
+    nav #NavLeft img:nth-child(2) {
+      margin-left: 25px;
+      border: 3px solid #0CBDB3; }
+  nav #NavRight {
+    right: 0px;
+    position: absolute;
+    margin-right: 25px;
+    margin-top: 10px; }
+    nav #NavRight #Contact {
+      border: 3px solid #0CBDB3;
+      padding: 6.5px;
+      font-size: 1.45rem;
+      color: #0CBDB3; }
+  nav #NavLogo a {
+    text-decoration: none;
+    color: #0CBDB3;
+    font-size: 3rem;
+    font-weight: 900;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block; }
+  nav li {
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    font-size: 2rem;
+    display: inline-block;
+    padding-left: 25px;
+    padding-bottom: 9px; }
+  nav ul {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px; }
+  nav .NavContainer {
+    margin: auto;
+    display: block;
+    position: static; }
+  nav .NavBox {
+    display: inline-block; }
+  nav .NavInNav {
+    display: none; }
+  nav #NavButton {
+    display: none; }
+
+footer {
+  margin-top: 210px;
+  width: 100%;
+  display: inline-block;
+  background: #1B1B1B;
+  color: #B5B5B5; }
+  footer .Box {
+    margin: 50px 100px 0px 100px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #373D3D;
+    display: block; }
+  footer .Container {
+    margin: 0px 50px; }
+  footer .Info {
+    text-align: left;
+    font-size: 1.2rem; }
+  footer .Box:nth-child(2) {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border: 0px;
+    display: flow-root; }
+    footer .Box:nth-child(2) .Info {
+      padding-top: 13px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    footer .Box:nth-child(2) .ButtonBox {
+      margin: 0px;
+      padding: 0px;
+      top: 0px;
+      float: right; }
+    footer .Box:nth-child(2) .BugBox {
+      border: 3px solid;
+      display: flex;
+      padding: 6.5px;
+      font-size: 1.45rem;
+      color: #E51A4B; }
+      footer .Box:nth-child(2) .BugBox span {
+        float: left;
+        padding-right: 10px; }
+      footer .Box:nth-child(2) .BugBox img {
+        height: 31px;
+        float: right; }
+    footer .Box:nth-child(2) .ButtonBox:nth-child(2) {
+      padding: 0px 25px; }
+    footer .Box:nth-child(2) .ButtonBox:nth-child(3) .BugBox {
+      border: 3px solid #0CBDB3; }
+    footer .Box:nth-child(2) .Container {
+      text-align: left;
+      display: flex; }
+    footer .Box:nth-child(2) .Container2 {
+      display: grid;
+      width: auto;
+      float: left;
+      text-align: left; }
+
+/*# sourceMappingURL=AllFather.css.map */
